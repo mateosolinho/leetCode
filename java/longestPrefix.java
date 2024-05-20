@@ -1,4 +1,4 @@
-public class longestPrefix {
+public class LongestPrefix {
     public String longestCommonPrefix(String[] strs) {
         String a = "";
         int pos = 0;
@@ -16,7 +16,7 @@ public class longestPrefix {
     }
 
     public static void main(String[] args) {
-        longestPrefix l = new longestPrefix();
+        LongestPrefix l = new LongestPrefix();
         String[] strs = { "a" };
         System.out.println(l.longestCommonPrefix(strs));
     }

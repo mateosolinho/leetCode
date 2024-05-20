@@ -1,4 +1,4 @@
-public class climbingStairs {
+public class ClimbingStairs {
     public int climbStairs(int n) {
         int f = 0;
         int f1 = 1;
@@ -12,7 +12,7 @@ public class climbingStairs {
     }
     
     public static void main(String[] args) {
-        climbingStairs c = new climbingStairs();
+        ClimbingStairs c = new ClimbingStairs();
         c.climbStairs(3);
     }
 }
